@@ -1,6 +1,8 @@
+import os
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
+
 import argparse
 import logging
-import os
 import re
 
 import faster_whisper
