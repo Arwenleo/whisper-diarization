@@ -43,6 +43,9 @@ parser.add_argument(
     "-a", "--audio", help="name of the target audio file", required=True
 )
 parser.add_argument(
+    "-o", "--output_dir", required=True, help="Directory to save the output files"
+)
+parser.add_argument(
     "--no-stem",
     action="store_false",
     dest="stemming",
